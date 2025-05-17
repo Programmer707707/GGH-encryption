@@ -44,13 +44,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# print(np.array([[1,0,0], [0,1,0], [0,0,1]]).dtype)
-# print(np.eye(3, dtype=int).dtype)
-
-# A = np.array([[1, 0, 0], [0, 1, 0], [0, 0, 1]], dtype=int)
-# B = np.eye(3, dtype=int)
-
-# print("Same values:", np.array_equal(A, B))  
-# print("Same memory layout:", A.flags['C_CONTIGUOUS'], B.flags['C_CONTIGUOUS'])
