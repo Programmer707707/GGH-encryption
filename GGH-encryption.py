@@ -7,7 +7,7 @@ def build(n):
             return mat
 
 def prep_keys(n=3):
-    B = np.array([[3, 0, 0], [0, 5, 0], [0, 0, 7]], dtype=int)   #np.eye(n, dtype=int)  #[[1, 0, 0], [0, 1, 0], [0, 0, 1]]        
+    B = np.eye(n, dtype=int) * 3  #[[1, 0, 0], [0, 1, 0], [0, 0, 1]]        
     B_inv = np.linalg.inv(B)
     U = build(n)              
     U_inv = np.linalg.inv(U)
